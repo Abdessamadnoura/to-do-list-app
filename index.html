@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="js\css\styles.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Header with Date Picker -->
+    <header class="header">
+      <div class="date-picker">
+        <button class="nav-btn" id="prevDay">&#8592;</button>
+        <div class="days" id="daysContainer">
+          <!-- Dates will be dynamically inserted here -->
+        </div>
+        <button class="nav-btn" id="nextDay">&#8594;</button>
+      </div>
+    </header>
+
+    <!-- Task List -->
+    <main class="task-list" id="taskList">
+      <!-- Tasks will be inserted here -->
+    </main>
+
+    <!-- Floating Action Button -->
+    <button class="add-task-btn" id="addTaskBtn">+</button>
+
+    <!-- Task Modal -->
+    <div class="modal hidden" id="taskModal">
+      <div class="modal-content">
+        <h2>Add New Task</h2>
+        <input type="text" id="taskTitle" placeholder="Task title" />
+        <textarea id="taskDetails" placeholder="Details..."></textarea>
+        <input type="datetime-local" id="taskReminder" />
+        <button id="saveTask">Save</button>
+        <button id="closeModal">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js\script.js"></script>
+</body>
+</html>
