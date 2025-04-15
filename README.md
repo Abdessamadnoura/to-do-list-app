@@ -10,11 +10,12 @@ A clean and responsive To-Do List application with:
 
 ## Demo
 
-[أضف صورة أو رابط لفيديو قصير هنا]
+[Screenshot 2025-04-13 203240](https://github.com/user-attachments/assets/338ff63d-e0d4-4f72-87de-188f9a5528d2)
 
 ## Installation
 
-```bash
+```bash!
+
 git clone https://github.com/username/todo-list-app.git
 cd todo-list-app
 npm install
